@@ -32,7 +32,7 @@ expect(screen.queryByText('Home')).toBeInTheDocument();
 expect(screen.queryByText('About')).toBeInTheDocument();
 expect(screen.queryByText('Blog')).toBeInTheDocument();
 expect(screen.queryByText('The Truth')).toBeInTheDocument();
-expect(screen.queryByText('avaScript is pretty awesome')).toBeInTheDocument();
+expect(screen.queryByText('javaScript is pretty awesome')).toBeInTheDocument();
 expect(screen.queryByText('javaScript is pretty', {exact: false})).toBeInTheDocument();
 
 
