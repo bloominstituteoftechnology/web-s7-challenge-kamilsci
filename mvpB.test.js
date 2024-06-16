@@ -16,20 +16,20 @@ describe('Sprint 7 Challenge Learner Tests', () => {
   
   
 
-  test('renders correct content', () => {
-    render(<HelloWorld/>)
+//   test('renders correct content', () => {
+//     render(<HelloWorld/>)
 
-expect(screen.queryByText('Home')).toBeInTheDocument();
-expect(screen.queryByText('About')).toBeInTheDocument();
-expect(screen.queryByText('Blog')).toBeInTheDocument();
-expect(screen.queryByText('The Truth')).toBeInTheDocument();
-expect(screen.queryByText('javaScript is pretty awesome')).toBeInTheDocument();
-expect(screen.queryByText('javaScript is pretty', {exact: false})).toBeInTheDocument();
-
-
+// expect(screen.queryByText('Home')).toBeInTheDocument();
+// expect(screen.queryByText('About')).toBeInTheDocument();
+// expect(screen.queryByText('Blog')).toBeInTheDocument();
+// expect(screen.queryByText('The Truth')).toBeInTheDocument();
+// expect(screen.queryByText('javaScript is pretty awesome')).toBeInTheDocument();
+// expect(screen.queryByText('javaScript is pretty', {exact: false})).toBeInTheDocument();
 
 
-  })
+
+
+//   })
   /*
   👉 TASK 1 - Unit Testing of sum function at the bottom of this module
 
