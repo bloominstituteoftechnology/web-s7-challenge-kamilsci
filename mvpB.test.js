@@ -5,22 +5,13 @@ import '@testing-library/jest-dom'
 describe('Sprint 7 Challenge Learner Tests', () => {
 
 
-  describe('unit test of sum function', () =>{
-    it("pass valid numbers", () => {
-      expect().toBe()
-    })
-    it("pass valid numbers", () => {
-      expect(2,' ').toBe()
-    })
-    it("pass valid numbers", () => {
-      expect(1,3).toBe(4)
-    })
-    it("pass valid numbers", () => {
-      expect('1', 2).toBe(3)
-    })
-    it("pass valid numbers", () => {
-      expect('10','3').toBe(13)
-    })
+  test('Sum function', () => {
+
+    expect(() => sum().toThrow('pass valid numbers'))
+    expect(() => sum(2, 'seven' ).toThrow('pass valid numbers'))
+    expect(sum(1,3)).toBe(4) 
+    expect(sum('1',2)).toBe(3) 
+    expect(sum('10','3')).toBe(13) 
   })
   
   
