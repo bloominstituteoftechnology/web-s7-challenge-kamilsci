@@ -22,7 +22,7 @@ describe('Sprint 7 Challenge Learner Tests', () => {
       expect('10','3').toBe(13)
     })
   })
-
+  
 
 
   test('renders corresct content', () => {
