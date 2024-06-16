@@ -16,7 +16,7 @@ describe('Sprint 7 Challenge Learner Tests', () => {
   
   
 
-  test('renders corresct content', () => {
+  test('renders correct content', () => {
     render(<HelloWorld/>)
 
 expect(screen.queryByText('Home')).toBeInTheDocument();
